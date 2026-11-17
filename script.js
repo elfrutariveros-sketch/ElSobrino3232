@@ -9,13 +9,11 @@ const DB={
 const PRODUCTOS=[
  {id:1,tipo:'remera',nombre:'Remera Camo Celeste 3232',precio:16000,color:'#0b0f1f',tinta:'#a9c8ff',texto:'ESTILO 3232',sub:'EL SOBRINO',foto:'img/merch-1.jpg'},
  {id:2,tipo:'remera',nombre:'Remera Camo Violeta 3279',precio:18000,color:'#10206b',tinta:'#dbe9ff',texto:'3279',sub:'ESTILO 3279',foto:'img/merch-2.jpg'},
- {id:3,tipo:'remera',nombre:'Remera Camo Oro Internacional',precio:20000,color:'#a9c8ff',tinta:'#05070f',texto:'INTERNACIONAL',sub:'3232 EUROPA',foto:'img/merch-3.jpg'},
  {id:4,tipo:'campera',nombre:'Campera Camo Azul 3232',precio:30000,color:'#0b0f1f',tinta:'#2f6bff',texto:'ESTILO 3232',sub:'EL SOBRINO',foto:'img/merch-4.jpg'},
  {id:5,tipo:'campera',nombre:'Hoodie Camo Violeta Internacional',precio:40000,color:'#10206b',tinta:'#dbe9ff',texto:'INTERNACIONAL',sub:'3232',foto:'img/merch-5.jpg'},
  {id:6,tipo:'campera',nombre:'Campera Camo Oro 3279',precio:50000,color:'#05070f',tinta:'#a9c8ff',texto:'3279',sub:'ESTILO 3279',foto:'img/merch-6.jpg'},
  {id:7,tipo:'pantalon',nombre:'Jogger Camo Azul 3232',precio:20000,color:'#0b0f1f',tinta:'#2f6bff',texto:'3232',sub:'',foto:'img/merch-7.jpg'},
  {id:8,tipo:'pantalon',nombre:'Cargo Camo Celeste 3279',precio:30000,color:'#10206b',tinta:'#dbe9ff',texto:'3279',sub:'',foto:'img/merch-8.jpg'},
- {id:9,tipo:'pantalon',nombre:'Pantalón Camo Violeta Internacional',precio:40000,color:'#05070f',tinta:'#a9c8ff',texto:'INTER',sub:'3232',foto:'img/merch-9.jpg'}
 ];
 
 const $=id=>document.getElementById(id);
