@@ -138,6 +138,10 @@ footer small{width:100%;color:#7d8fbd;font-size:12px}
 .estampa{position:absolute;transform:translate(-50%,-50%);text-align:center;font-family:var(--display);font-weight:900;line-height:1;pointer-events:none;text-shadow:0 1px 3px rgba(0,0,0,.35);white-space:nowrap}
 .estampa small{display:block;font-family:var(--body);font-weight:700;font-size:.34em;letter-spacing:.12em;margin-top:.4em}
 
+/* 🟩 MARCA VERDE: aparece solo si falta la foto de una prenda */
+.ph.falta{outline:3px dashed #22c55e;outline-offset:-3px;background:#0b3d1f;display:grid;place-items:center}
+.ph.falta::after{content:"🟩 AGREGAR FOTO AQUÍ\A (index.html → sección Merch)";white-space:pre;text-align:center;color:#4ade80;font-weight:700;font-size:13px;padding:14px}
+
 /* DIALOGOS (checkout y arrepentimiento) */
 dialog{margin:auto;background:#0a1230;color:var(--texto);border:2px solid var(--electrico);padding:28px;width:min(92vw,460px)}
 dialog::backdrop{background:rgba(5,7,15,.8)}

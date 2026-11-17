@@ -48,14 +48,7 @@ function foto(p){
 
 /* Tienda */
 let carrito=[];
-$('merchGrid').innerHTML=PRODUCTOS.map(p=>`
- <article class="prod">
-  <!-- 📷 IMAGEN MERCH: foto real de la prenda lisa en img/merch-${p.id}.jpg (la estampa se pone sola encima) -->
-  ${foto(p)}
-  <h3>${p.nombre}</h3><div class="precio">${money(p.precio)}</div>
-  <div class="fila2"><select aria-label="Talle" id="t${p.id}"><option>S</option><option selected>M</option><option>L</option><option>XL</option></select>
-  <button type="button" data-add="${p.id}">Agregar</button></div>
- </article>`).join('');
+/* Las tarjetas de merch están escritas en index.html (sección Merch) */
 
 document.addEventListener('click',e=>{
   const a=e.target.dataset.add;
